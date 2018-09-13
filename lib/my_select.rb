@@ -3,6 +3,8 @@ def my_select(collection)
   empty_array = []
   while i < collection.size
    yield collection[i]
+   binding.pry
+   item =
     if yield collection [i] == true
      empty_array << collection[i]
     end
