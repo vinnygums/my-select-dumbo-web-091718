@@ -7,6 +7,6 @@ def my_select(collection)
     empty_array << true
     end
     i = i + 1
+    binding.pry
   end
-  empty_array
 end
