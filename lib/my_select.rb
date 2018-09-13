@@ -3,6 +3,7 @@ def my_select(collection)
   empty_array = []
   while i < collection.size
     item = collection[i]
+    
     if item == true
      empty_array << item
     end
