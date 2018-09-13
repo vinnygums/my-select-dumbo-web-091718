@@ -4,10 +4,8 @@ def my_select(collection)
   while i < collection.size
     item = yield collection[i]
     if item == true
-    empty_array << item
+    empty_array << true
     end
     i = i + 1
   end
-  empty_array.each do |number|
-    
 end
