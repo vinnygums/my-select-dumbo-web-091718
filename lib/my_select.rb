@@ -4,7 +4,6 @@ def my_select(collection)
   while i < collection.size
    item = yield collection[i]
    binding.pry
-   item = 
     if yield collection [i] == true
      empty_array << collection[i]
     end
