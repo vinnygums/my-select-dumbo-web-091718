@@ -9,4 +9,5 @@ def my_select(collection)
     i = i + 1
     binding.pry
   end
+  empty_array
 end
