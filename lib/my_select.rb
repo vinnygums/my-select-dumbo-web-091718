@@ -4,9 +4,9 @@ def my_select(collection)
   while i < collection.size
     yield collection[i]
     binding.pry
-    item = collection[i]
+    if yield collection [i] == true
     
-     empty_array << item
+     empty_array << 
     i = i + 1
   end
   empty_array
